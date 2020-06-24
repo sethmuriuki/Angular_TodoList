@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todo-list';
+  todoList = [
+    {title: 'Instal NodeJS'},
+    {title: 'Install Angular CLI'},
+    {title: 'Create New App'},
+    {title: 'Serve App'},
+    {title: 'Deploy App'},
+    {title: 'Host App'},
+  ];
 }
