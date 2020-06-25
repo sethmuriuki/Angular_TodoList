@@ -16,4 +16,8 @@ export class AppComponent {
     {title: 'Deploy App'},
     {title: 'Host App'},
   ];
+
+  addItem(title: string) {
+    this.todoList.push({title});
+  }
 }
